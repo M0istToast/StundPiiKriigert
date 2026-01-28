@@ -1,0 +1,9 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 10px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    background-color: rgb(231, 154, 255);
+}
