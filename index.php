@@ -14,4 +14,4 @@ if(isset($_GET["search_query"]) && trim($_GET["search_query"]) != "") {
 
 $posts = $db->query($sql_query, $params)->fetchAll(PDO::FETCH_ASSOC);
 
-require "views\story.view.php";
+require "views\index.view.php";
